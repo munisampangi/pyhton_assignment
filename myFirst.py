@@ -29,8 +29,8 @@ D = {
 }
 # n=int(input("enter the n"))
 
-final_string = produce(D, 5)
-print(final_string)
+S = produce(D, 5)
+print(S)
 
 '''Q2 Test your code using the following L-system (Cantor fractal) where n=3 and tell the answer:
  variables : A B
