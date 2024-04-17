@@ -3,12 +3,12 @@
 
 # ans:
 
-def produce(D, num):
+def produce(D, n):
     axiom = D['axiom']
     variables = D['variables']
     rules = D['rules']
 
-    for _ in range(num):
+    for _ in range(n):
         string = ''
         for symbol in axiom:
             if symbol in rules:
@@ -27,7 +27,7 @@ D = {
         'B': 'A'
     }
 }
-# num=int(input("enter the num"))
+# n=int(input("enter the n"))
 
 final_string = produce(D, 5)
 print(final_string)
