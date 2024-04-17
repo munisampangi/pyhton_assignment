@@ -45,12 +45,14 @@ Replace the D object with the specified variables,axioms,rules,constants in Q1 t
 # ans:
 
 '''
+TIME COMPLEXITY
 The time complexity of the 'produce' function  depends on the number of times it looping, which is determined by  parameter n.
 In the function, there's a loop that iterates n times. Within each iteration, another loop iterates over each character in the string S. 
 Now denote the length of String S as m.
 then the time complexity of the function is O(n * m).
 '''
 '''
+SPACE COMPLEXITY
 The space complexity of the function is dominated by the storage of the L-system string S and the rules dictionary D.
 and the function doesn't create any additional data structures that grow with the input size, the space complexity is  determined by the
  size of the input L-system string and the size of the rules dictionary.
